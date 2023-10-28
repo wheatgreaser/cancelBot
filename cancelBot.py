@@ -6,7 +6,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn import svm
 from sklearn.metrics import accuracy_score
 
-data = pd.read_csv('data.csv')
+data = pd.read_csv('cancelData.csv')
 X = data['tweet'].head(1000)
 y = data['hate_speech'].head(1000)
 
